@@ -6,7 +6,7 @@ import {ReactiveFormsModule} from '@angular/forms';
 import {AsyncPipe, CommonModule, JsonPipe} from '@angular/common';
 
 @NgModule({
-  imports: [SharedModule, GestoreRoutingModule, ReactiveFormsModule, CommonModule],
+  imports: [SharedModule, GestoreRoutingModule, CommonModule],
   declarations: [
     GestoreComponent
   ],

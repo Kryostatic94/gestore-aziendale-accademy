@@ -1,8 +1,8 @@
-@NgModule({
-  declarations: [NuovoCollegaModalComponent],
-  imports: [
+import {NgModule} from '@angular/core';
 
-    MaterialModule,
+@NgModule({
+  declarations: [],
+  imports: [
   ]
 })
 export class ModalsModule { }
