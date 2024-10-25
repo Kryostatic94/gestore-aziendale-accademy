@@ -1,0 +1,33 @@
+.modal{
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  .modal-body{
+    max-height: calc(100% - 50px);
+    overflow: auto;
+    form{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      button{
+        min-height: 48px;
+      }
+    }
+  }
+  .modal-footer{
+    display: flex;
+    justify-content: end;
+    margin-top: auto;
+    background: #FFFFFF;
+  }
+}
+
+.skills-form{
+  padding-top: 10px;
+}
+
+.input-skill{
+  width: 100%;
+}
